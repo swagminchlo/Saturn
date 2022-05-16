@@ -1,9 +1,9 @@
 player = game.Players.LocalPlayer
 
 player:GetMouse().KeyDown:Connect(function(key)
-	if key == "e" and script.Parent.Visible == false then
-		script.Parent.Visible = true
-	else script.Parent.Visible = false
+	if key == "e" and Discord.Visible == false then
+		Discord.Visible = true
+	else Discord.Visible = false
 	end
 end)
 
