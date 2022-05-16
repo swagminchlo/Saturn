@@ -1,12 +1,11 @@
 player = game.Players.LocalPlayer
 
 player:GetMouse().KeyDown:Connect(function(key)
-	if key == "e" and MainFrame.Visible == false then
-		MainFrame.Visible = true
-	else MainFrame.Visible = false
+	if key == "e" and script.Parent.Visible == false then
+		script.Parent.Visible = true
+	else script.Parent.Visible = false
 	end
 end)
-
 
 
 
