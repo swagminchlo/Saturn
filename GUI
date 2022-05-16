@@ -1,15 +1,3 @@
-local script = Instance.new('LocalScript', MainFrame)
-
-	player = game.Players.LocalPlayer
-	
-	player:GetMouse().KeyDown:Connect(function(key)
-		if key == "v" and script.Parent.Visible == false then
-			script.Parent.Visible = true
-		else script.Parent.Visible = false
-		end
-	end)
-end
-
 local DiscordLib = {}
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
